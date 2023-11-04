@@ -1,0 +1,93 @@
+section#motive_container {
+  max-width: 63em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 100px auto 50px;
+}
+
+section#motive_container section#grid_container {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: (minmax(20em, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+}
+
+section#motive_container section#grid_container div.card {
+  background: #ffffff;
+  -webkit-box-shadow: 10px 10px 42px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 10px 10px 42px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  width: 16em;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  min-height: 150px;
+  margin: 1em auto;
+  padding: 1em 1.85em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section#motive_container section#grid_container div.card p.card_data {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  line-height: 120%;
+  margin: 0;
+}
+
+@media (max-width: 750px) {
+  section#motive_container section#grid_container div.card {
+    min-height: 0px;
+  }
+}
+
+@media (max-width: 750px) {
+  section#motive_container {
+    margin-top: 50px;
+  }
+}
+
+p#pre-download {
+  text-align: center;
+  margin: 4em 0.2em -20px;
+}
+
+button#download_btn {
+  background-color: #ffce42;
+  color: #1f1f1f;
+  width: 40%;
+  padding: 10px;
+  margin: 0px auto;
+  display: block;
+  border: 2px solid #ffce42;
+  border-radius: 10px;
+  font-family: "Arvo";
+  font-size: 1.2em;
+}
+
+button#download_btn a {
+  color: #1f1f1f;
+  text-decoration: none;
+}
+
+button#download_btn:hover {
+  background-color: #f5b500;
+  cursor: pointer;
+}
+
+@media (max-width: 750px) {
+  button#download_btn {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=motive.css.map */

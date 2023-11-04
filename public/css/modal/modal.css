@@ -1,0 +1,61 @@
+section#modal {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  background-color: black;
+  overflow: hidden;
+  display: none;
+  z-index: 99999999999999999999999999999999999999999999999999;
+}
+
+section#modal div#x_cont {
+  width: 100%;
+  text-align: end;
+}
+
+section#modal div#x_cont img {
+  margin: 3%;
+  width: 3%;
+  cursor: pointer;
+}
+
+@media (max-width: 650px) {
+  section#modal div#x_cont img {
+    width: 10%;
+  }
+}
+
+section#modal div#pic_cont {
+  height: 80%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section#modal div#pic_cont img {
+  z-index: 9999999999999999999999999999999999999999999;
+  width: 90vw;
+  margin: 0;
+  max-width: 1100px;
+}
+
+section#modal div#pic_cont p#loading {
+  color: #ffffff;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+/*# sourceMappingURL=modal.css.map */

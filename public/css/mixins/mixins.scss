@@ -1,0 +1,50 @@
+@mixin breakpoint($point){
+
+  @if $point == 1056{
+    @media (max-width: 1056px) { @content }; 
+  }
+
+  @else if $point == 986{
+    @media (max-width: 986px) { @content }; //nav bar turns mobile
+  }
+  
+  @else if $point == 900{
+    @media (max-width: 900px) { @content };
+  }
+  
+  @else if $point == 850 {
+    @media (max-width: 850px) { @content }; //hero text
+  }
+
+  @else if $point == 820 {
+    @media (max-width: 820px) { @content };
+  }
+  
+  @else if $point == 750{
+    @media (max-width: 750px) { @content };
+  }
+
+  @else if $point == 650 {
+    @media (max-width: 650px) { @content }; // footer & modal close btn
+  }
+
+  @else if $point == 610{
+    @media (max-width: 610px) { @content };
+  }
+  
+  @else if $point == 505 {
+    @media (max-width: 505px) { @content };
+  }
+  
+  @else if $point == 426 {
+    @media (max-width: 426px) { @content }; //font size 12px
+  }
+
+  @else if $point == 409 {
+    @media (max-width: 409px) { @content }; //hero buttons 
+  }
+  
+  @else if $point == 320 {
+    @media (max-width: 320px) { @content };
+  }
+};

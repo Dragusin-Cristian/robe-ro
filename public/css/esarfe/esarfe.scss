@@ -1,0 +1,10 @@
+@import '../ffv/ffv.scss';      
+@import '../mixins/mixins.scss';
+section#esarfe{
+  width: 100%;
+  img{
+    width: 95%;
+    display: block;
+    margin: 0px auto 1em;
+  }
+}

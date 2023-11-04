@@ -1,0 +1,48 @@
+body {
+  overflow: overlay;
+}
+
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  font-family: "Montserrat";
+  color: #1f1f1f;
+  scroll-behavior: smooth;
+}
+
+body h1,
+html h1 {
+  text-align: center;
+  font-family: "Arvo";
+  font-size: 3em;
+}
+
+body h2,
+html h2 {
+  font-family: "Arvo";
+  font-size: 1.6em;
+}
+
+body::-moz-selection,
+html::-moz-selection {
+  color: #ffffff;
+  background: #1f1f1f;
+}
+
+body::selection,
+html::selection {
+  color: #ffffff;
+  background: #1f1f1f;
+}
+
+@media (max-width: 750px) {
+  body,
+  html {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=body.css.map */

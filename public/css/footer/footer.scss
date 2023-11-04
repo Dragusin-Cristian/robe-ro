@@ -1,0 +1,110 @@
+@import "../ffv/ffv.scss";
+@import "../mixins/mixins.scss";
+
+footer {
+  width: 100%;
+  background-color: color(black);
+  color: color(white);
+  padding-bottom: 1em;
+
+  article#footer_data_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+
+    div#left {
+      margin: 2em;
+
+      ul {
+        list-style-type: none;
+        padding: 0px;
+
+        li {
+          display: flex;
+          margin-top: 2em;
+          span {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-image: url("../assets/WhatsApp_ic.svg");
+            margin-right: 10px;
+            background-size: cover;
+          }
+
+          p {
+            text-decoration: underline;
+            display: inline-block;
+            margin: 0px 0px 0px 30px;
+            color: color(white);
+
+            &:hover {
+              color: chartreuse;
+            }
+          }
+        }
+      }
+    }
+    div#right {
+      margin: 2em;
+
+      div#underline {
+        padding-bottom: 0.01em;
+        width: fit-content;
+        border-bottom: 2px solid color(white);
+
+        h2 {
+          letter-spacing: 0.05em;
+          margin: 0px;
+        }
+
+        img {
+          width: 1.3em;
+        }
+      }
+
+      div.contact {
+        margin-top: 1.4em;
+        display: flex;
+        align-items: center;
+        p {
+          margin: 0 1em 0 0;
+        }
+        a {
+          color: white;
+          display: flex;
+          align-items: center;
+
+          img {
+            margin-right: 1em;
+          }
+
+          &:hover {
+            color: color(yellow);
+          }
+        }
+      }
+    }
+  }
+
+  div.center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    h3#final {
+      text-align: center;
+      color: white;
+      font-family: font(arvo);
+      margin: 2em 2em;
+      max-width: 40em;
+    }
+  }
+
+  @include breakpoint(505) {
+    article#footer_data_container {
+      display: block;
+      padding-top: 1em;
+    }
+  }
+}

@@ -1,0 +1,73 @@
+@import "../ffv/ffv.scss";
+@import "../mixins/mixins.scss";
+
+section#motive_container {
+  max-width: 63em;
+  box-sizing: border-box;
+  margin: 100px auto 50px;
+
+  section#grid_container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+
+    div.card {
+      background: #ffffff;
+      box-shadow: 10px 10px 42px 1px rgba(0, 0, 0, 0.25);
+      border-radius: 15px;
+      width: 16em;
+      height: fit-content;
+      min-height: 150px;
+      margin: 1em auto;
+      padding: 1em 1.85em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      p.card_data {
+        font-family: "Montserrat", sans-serif;
+        font-size: size(paragraph);
+        line-height: 120%;
+        margin: 0;
+      }
+      @include breakpoint(750) {
+        min-height: 0px;
+      }
+    }
+  }
+  @include breakpoint(750) {
+    margin-top: 50px;
+  }
+}
+
+p#pre-download{
+  text-align: center;
+  margin: 4em 0.2em -20px;
+}
+
+button#download_btn {
+  background-color: color(yellow);
+  color: color(black);
+  width: 40%;
+  padding: 10px;
+  margin: 0px auto;
+  display: block;
+  border: 2px solid color(yellow);
+  border-radius: 10px;
+  font-family: font(arvo);
+  font-size: 1.2em;
+
+  a {
+    color: color(black);
+    text-decoration: none;
+  }
+
+  &:hover {
+    background-color: darken(color(yellow), 15%);
+    cursor: pointer;
+  }
+
+  @include breakpoint(750) {
+    width: 80%;
+  }
+}

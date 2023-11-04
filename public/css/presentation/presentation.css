@@ -1,0 +1,275 @@
+section#presentation_container {
+  margin: 50px auto 0px;
+  max-width: 900px;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section#presentation_container div.golden_border {
+  border: 3px solid #ffce42;
+  width: 100%;
+  padding: 2.5em 2em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section#presentation_container div.golden_border h2 {
+  text-align: center;
+}
+
+section#presentation_container section#grid_pictures {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 100px;
+  -ms-grid-columns: (minmax(1fr, 330px))[autofit];
+      grid-template-columns: repeat(autofit, minmax(1fr, 330px));
+      grid-template-areas: "one two" "one three";
+}
+
+section#presentation_container section#grid_pictures img#img_one {
+  width: 95%;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: one;
+}
+
+section#presentation_container section#grid_pictures img#img_two {
+  width: 95%;
+  margin-bottom: 25px;
+  float: right;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: two;
+}
+
+section#presentation_container section#grid_pictures img#img_three {
+  width: 95%;
+  margin-top: 12.5px;
+  float: right;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: three;
+}
+
+section#presentation_container article {
+  width: 100%;
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section#presentation_container article div.left {
+  width: 390px;
+  margin-right: 25px;
+}
+
+section#presentation_container article div.right {
+  width: 510px;
+}
+
+section#presentation_container article img#img_six {
+  max-width: 485px;
+  margin-top: 50px;
+}
+
+section#presentation_container article ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+section#presentation_container article ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.2em;
+}
+
+section#presentation_container article ul li span {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url("../assets/check_ic.svg");
+  margin-right: 10px;
+  background-size: cover;
+}
+
+section#presentation_container article ul li p {
+  display: inline-block;
+  margin: 0px 0px 0px 30px;
+}
+
+section#presentation_container article img#img_four {
+  max-width: 485px;
+}
+
+section#presentation_container article img#img_five {
+  width: 80%;
+  float: right;
+  margin-top: 50px;
+}
+
+section#presentation_container article img#img_seven {
+  max-width: 485px;
+  position: relative;
+  top: -60px;
+}
+
+section#presentation_container article img#img_nine {
+  max-width: 485px;
+  background-size: cover;
+  float: right;
+  position: relative;
+  top: -80px;
+}
+
+section#presentation_container div#try_colors {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 120px;
+}
+
+section#presentation_container div#try_colors div#colors_container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(35px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(35px, 1fr));
+  width: 100%;
+  height: 30px;
+}
+
+section#presentation_container div#try_colors div#colors_container span {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 50%;
+  content: " ";
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+section#presentation_container div#try_colors div#colors_container span:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+section#presentation_container div#try_colors p#cod_culoare {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 10px auto;
+  padding: 7px 10px 5px;
+  border: 3px solid #ffce42;
+}
+
+section#presentation_container div#try_colors p#cod_culoare ::-moz-selection {
+  color: #1f1f1f;
+  background: #ffffff;
+}
+
+section#presentation_container div#try_colors p#cod_culoare ::selection {
+  color: #1f1f1f;
+  background: #ffffff;
+}
+
+@media (max-width: 900px) {
+  section#presentation_container {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  section#presentation_container article {
+    margin-top: 50px;
+  }
+  section#presentation_container div#right_pics {
+    width: 100%;
+  }
+  section#presentation_container img#img_four,
+  section#presentation_container img#img_six,
+  section#presentation_container div#right_2 {
+    display: none;
+  }
+  section#presentation_container div#left_2 {
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+}
+
+@media (max-width: 750px) {
+  section#presentation_container article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section#presentation_container article div#right_1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  section#presentation_container article img#img_five {
+    margin: 50px auto;
+  }
+  section#presentation_container article div#left_2 {
+    display: block;
+  }
+  section#presentation_container div#try_colors {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 505px) {
+  section#presentation_container h2 {
+    text-align: center;
+  }
+  section#presentation_container section#grid_pictures {
+    margin-top: 40px;
+  }
+  section#presentation_container div#right_1 {
+    display: block;
+    width: 100%;
+  }
+  section#presentation_container div#right_1 img#img_five {
+    width: 100%;
+  }
+  section#presentation_container article div#left_1 {
+    margin-right: 0px;
+    width: 100%;
+  }
+}
+
+div#img_eleven {
+  background-image: url("../../assets/eleven.png");
+  background-attachment: fixed;
+  width: 100%;
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=presentation.css.map */

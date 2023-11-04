@@ -1,0 +1,136 @@
+section#hero {
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+  height: 490px;
+  background-attachment: fixed;
+  background-image: url(../assets/hero_bg.png);
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section#hero a {
+  color: #1f1f1f;
+  text-decoration: none;
+}
+
+section#hero div#hero_container {
+  text-align: center;
+}
+
+section#hero div#hero_container h1#hero_title {
+  font-family: "Arvo";
+  color: #ffffff;
+  font-size: 3em;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.2em;
+}
+
+section#hero div#hero_container h3 {
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-size: 1.25em;
+}
+
+section#hero div#hero_container h3#hero_descr {
+  max-width: 480px;
+  margin: auto auto;
+  line-height: 1.4em;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+section#hero div#hero_container button.hero_btn {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  font-family: "Montserrat";
+  cursor: pointer;
+}
+
+section#hero div#hero_container button#hero_oferta {
+  background-color: #ffce42;
+  margin-right: 35px;
+}
+
+section#hero div#hero_container button#hero_oferta:hover {
+  background-color: #dba200;
+}
+
+section#hero div#hero_container button#hero_contact {
+  background-color: #e52c20;
+  color: #ffffff;
+}
+
+section#hero div#hero_container button#hero_contact:hover {
+  background-color: #bc2016;
+}
+
+section#hero div#hero_container h3#scrollbtn {
+  text-decoration: underline;
+  cursor: pointer;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 0px 15px 5px 15px;
+}
+
+section#hero div#hero_container h3#scrollbtn:hover {
+  background-color: #000;
+}
+
+@media (max-width: 850px) {
+  section#hero div#hero_container {
+    margin: auto 20px;
+  }
+  section#hero div#hero_container h1#hero_title {
+    font-size: 2.2em;
+    line-height: 125%;
+  }
+}
+
+@media (max-width: 409px) {
+  section#hero div#btns_cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section#hero button#hero_oferta {
+    margin-left: 35px;
+  }
+  section#hero button.hero_btn {
+    margin: 10px 0px;
+  }
+}
+
+@media (max-width: 320px) {
+  section#hero div#hero_container h1#hero_title {
+    font-size: 1.6em;
+  }
+  section#hero div#hero_container h3#hero_descr {
+    font-size: 1em;
+  }
+}
+/*# sourceMappingURL=hero.css.map */

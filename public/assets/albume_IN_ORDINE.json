@@ -1,0 +1,120 @@
+{
+    "titles": [
+      "Album tip rama Elegant",
+      "Album digital Graduation",
+      "Revista clasei A4",
+      "Album digital Trubadur",
+      "Album digital Muschetar",
+      "Album digital Rege",
+      "Album digital Velvet Silver",
+      "Album fotocarte Queen",
+      "Album fotocarte King",
+      "Album fotocarte Royal",
+      "Album fotocarte Avangarde",
+      "Album fotocarte Special Memories"
+    ],
+    "images": [
+      "./assets/album1.png",
+      "./assets/album2.png",
+      "./assets/album3.png",
+      "./assets/album4.png",
+      "./assets/album5.png",
+      "./assets/album6.png",
+      "./assets/album7.png",
+      "./assets/album8.png",
+      "./assets/album9.png",
+      "./assets/album10.png",
+      "./assets/album11.png",
+      "./assets/album12.png"
+    ],
+    "descriptions": [
+      [
+        "- copertă groasă din mucava îmbrăcată în imitație de piele; interior hârtie fotografică mată cașerată",
+        "- dimensiune 20x30 cm închis",
+        "- pe exteriorul albumului este inscripționat anul absolvirii cu folio auriu",
+        "- pentru acest album trebuie să selectaţi câte 1 poză individuală pentru fiecare persoană"
+      ],
+  
+      [
+        "- album cu paginație; dimensiune 14x21; interior digital;",
+        "- câte 3 elevi pe pagină; pe lângă paginile cu elevi, albumul conţine 1 pagină pentru diriginte, 1 pagină cu grupul clasei şi 1 pagină semigrupuri",
+        "- copertă prefabricată design negru",
+        "- pentru acest album trebuie să selectaţi câte 1 poză individuală pentru fiecare persoană, grupul clasei, grup fete şi grup baieţi"
+      ],
+  
+      [
+        "- album cu paginație; dimensiune A4; interior digital;",
+        "- câte 4 elevi pe pagină; pe lângă paginile cu elevi, albumul conţine 1 pagină pentru diriginte, 1 pagină dublă cu grupul clasei şi 1 pagină semigrupuri",
+        "- copertă printată personalizată cu poza liceului",
+        "- pentru acest album trebuie să selectaţi câte 1 poză individuală pentru fiecare persoană, grupul clasei, grup fete şi grup baieţi"
+      ],
+  
+      [
+        "- dimensiune A4; interior digital; câte 3 elevi pe pagină;",
+        "- coperţi variate din imitaţie de piele, catifea sau fotocopertă",
+        "- şedinţa foto se organizează în locația aleasă de voi și cuprinde portrete, fotografia de grup a clasei și semigrupuri",
+        "- pentru acest album trebuie să selectaţi câte 1 poză individuală pentru fiecare persoană, poza de grup a clasei, grup fete şi grup baieţi"
+      ],
+  
+      [
+        "- dimensiune A4; interior digital; câte 1 elev pe pagină; coperţi variate din imitaţie de piele, catifea sau fotocopertă",
+        "- şedinţa foto se organizează în locația aleasă de voi și cuprinde portrete, fotografia de grup a clasei și semigrupuri",
+        "- pentru acest album trebuie să selectaţi câte 2 poze pentru fiecare elev (1 poză individuală şi 1 poză cu prietenii), poza de grup a clasei, grup fete şi grup baieţi; pentru diriginţi sau profesori se alege 1 portret"
+      ],
+  
+      [
+        "- dimensiune A4; interior digital; câte 2 pagini pentru fiecare elev ; coperţi variate din imitaţie de piele, catifea sau fotocopertă",
+        "- şedinţa foto extinsă care se organizează în locația aleasă de voi și cuprinde portrete, fotografia de grup a clasei și semigrupuri",
+        "- pentru acest album trebuie să selectaţi câte 3 poze pentru fiecare elev (1 poză individuală şi 2 poze cu prietenii), poza de grup a clasei, grup fete şi grup baieţi; pentru diriginţi sau profesori se alege 1 portret"
+      ],
+  
+      [
+        "- dimensiune 20x20; interior digital; câte 1 pagină pentru fiecare elev cu 2 poze (1 individual şi 1 grup cu prieteni);",
+        "- şedinţă foto se organizează în locația aleasă de voi și cuprinde portrete, fotografia de grup a clasei și semigrupuri;",
+        "- copertă MAJESTIC (copertă pluş cu panglică decorativă; gamă variată de culori)",
+        "- pentru acest album trebuie să selectaţi câte 2 poze pentru fiecare elev",
+        "- (1 poză individuală şi 1 poză cu prietenii), poza de grup a clasei, grup fete şi grup baieţi; pentru diriginţi sau profesori se alege 1 portret"
+      ],
+  
+      [
+        "- dimensiune 20x20 închis; interior fotografic; pagini groase cartonate;",
+        "- două pagini dedicate celui care va deţine albumul ; acestea vor conţine 3 fotografii alese de titularul albumului; albumul mai conţine: 1 pagină cu dirigintele clasei si cu profesorii; pagini cu portretele colegilor (câte 4 pe pagină); 2 pagini cu fotografia de grup; 1 pagină cu semigrupurile principale; 1 pagină cu agenda clasei; 1 pagina pentru dedicaţii",
+        "- şedinţa foto se organizează în locația aleasă de voi și cuprinde portrete și foarte multe grupuri de prieteni;",
+        "- coperţi disponibile: imitaţie de piele / catifea / fotocopertă / Majestic (cu fundă decorativă)",
+        "- pentru acest album trebuie să selectaţi câte 3 poze pentru fiecare elev (1 poză individuală şi 2 poze cu prietenii), poza de grup a clasei, grup fete şi grup baieţi; pentru diriginţi sau profesori se alege 1 portret"
+      ],
+  
+      [
+        "- dimensiune 20x20 închis; interior fotografic; pagini groase cartonate;",
+        "- două pagini dedicate celui care va deţine albumul ; acestea vor conţine 3 fotografii alese de titularul albumului; albumul mai conţine: 1 pagină cu dirigintele clasei si cu profesorii; pagini cu portretele colegilor (câte 2 pe pagină); 2 pagini cu fotografia de grup; 1 pagină cu semigrupurile principale; 1 pagină cu agenda clasei; 1 pagina pentru dedicaţii",
+        "- şedinţa foto se organizează în locația aleasă de voi și cuprinde portrete și foarte multe grupuri de prieteni;",
+        "- coperţi disponibile: imitaţie de piele / catifea / fotocopertă / Majestic (cu fundă decorativă)",
+        "- pentru acest album trebuie să selectaţi câte 3 poze pentru fiecare elev (1 poză individuală şi 2 poze cu prietenii), poza de grup a clasei, grup fete şi grup baieţi; pentru diriginţi sau profesori se alege 1 portret"
+      ],
+  
+      [
+        "- dimensiune 20x20 închis; interior fotografic; pagini groase cartonate;",
+        "- două pagini dedicate celui care va deţine albumul ; acestea vor conţine 3 fotografii alese de titularul albumului",
+        "- albumul mai conţine: 1 pagină cu dirigintele clasei şi cu profesorii; pagini cu portretele colegilor (câte 1 elev pe pagină); 2 pagini cu fotografia de grup; 1 pagină cu semigrupurile principale; 1 pagină cu agenda clasei; 1 pagina pentru dedicaţii",
+        "- şedinţa foto se organizează în locația aleasă de voi și cuprinde portrete și foarte multe grupuri de prieteni;",
+        "- coperţi disponibile: imitaţie de piele / catifea / fotocopertă / Majestic (cu fundă decorativă)",
+        "- pentru acest album trebuie să selectaţi câte 3 poze pentru fiecare elev (1 poză individuală şi 2 poze cu prietenii), poza de grup a clasei, grup fete şi grup baieţi; pentru diriginţi sau profesori se alege 1 portret"
+      ],
+  
+      [
+        "- dimensiune 20x20 închis; interior fotografic; pagini groase cartonate;",
+        "- şedinţa foto se organizează în locația aleasă de voi și cuprinde portrete și foarte multe grupuri de prieteni;",
+        "- fiecare elev trebuie să îşi aleagă câte 3 poze din întreaga şedinţă foto; albumul conţine cca 20 de pagini pe care vor fi prezentate toate pozele selectate de voi, in mod aleator, adică fără o sortare a imaginilor după numele elevilor;",
+        "- coperţi disponibile: imitaţie de piele / catifea / fotocopertă / Majestic (cu fundă decorativă)"
+      ],
+  
+      [
+        "- copertă groasă din mucava îmbrăcată în imitație de piele ; interior hârtie fotografică mată cașerată",
+        "- dimensiune 13x25 cm închis",
+        "- pe exteriorul albumului este inscripționat anul absolvirii cu folio auriu",
+        "- DVD-ul personalizat cu poza şcolii conţine poze de grup si semigrup",
+        "- pentru acest album trebuie să selectaţi câte 1 poză individuală pentru fiecare persoană şi poza de grup a clasei"
+      ]
+    ]
+  }
+  

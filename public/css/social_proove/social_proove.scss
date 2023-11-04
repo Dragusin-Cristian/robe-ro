@@ -1,0 +1,49 @@
+@import "../ffv/ffv.scss";
+@import "../mixins/mixins.scss";
+
+section#social_proove {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.25em;
+
+  div.social_container {
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+    margin-left: 0.5em;
+
+    img {
+      width: 1.3em;
+      height: fit-content;
+      margin-right: 0.5em;
+    }
+
+    p {
+      max-width: 20em;
+      margin: 0em;
+      width: fit-content;
+    }
+  }
+
+  @include breakpoint(426) {
+    display: block;
+    width: 90%;
+    margin: auto;
+
+    div.social_container {
+      border-top: 1px solid color(black);
+      padding: 10px;
+      justify-content: center;
+      margin: auto;
+      width: fit-content;
+
+      &:first-child {
+        border-top: none;
+      }
+
+      img {
+        margin-right: 5px;
+      }
+    }
+  }
+}

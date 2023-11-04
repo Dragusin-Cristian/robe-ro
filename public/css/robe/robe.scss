@@ -1,0 +1,46 @@
+@import "../ffv/ffv.scss";
+@import "../mixins/mixins.scss";
+
+section#robe {
+  width: 100%;
+
+  div#img_cont {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(4, 1fr);
+
+    div.roba_cont {
+      text-align: center;
+
+      img {
+        width: 200px;
+        @include breakpoint(426) {
+          width: 150px;
+        }
+      }
+    }
+    @include breakpoint(820) {
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: space-evenly;
+    }
+  }
+
+  div#table_cont {
+    table,
+    td,
+    th {
+      border: 1px solid grey;
+      text-align: center;
+
+      pre {
+        font-family: font(montserrat);
+        color: color(black);
+      }
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+  }
+}

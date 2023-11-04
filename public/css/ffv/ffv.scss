@@ -1,0 +1,37 @@
+// Variables
+$fonts: (
+  montserrat: "Montserrat",
+  arvo: "Arvo",
+);
+$colors: (
+  yellow: #ffce42,
+  red: #e52c20,
+  black: #1f1f1f,
+  white: #ffffff,
+);
+$navbarheight: 50px;
+$sizes: (
+  //fonts sizes:
+  heroTitle: 3em,
+  heroDescr: 1.25em,
+  section_title: 1.6em,
+  paragraph: 1em,
+  albume_title: 1.3em,
+
+  //images:
+  landscape: 485px,
+  portrait: 390px,
+);
+
+// Functions
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
+
+@function font($font-name) {
+  @return map-get($fonts, $font-name);
+}
+
+@function size($font-size) {
+  @return map-get($sizes, $font-size);
+}

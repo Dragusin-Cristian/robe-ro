@@ -1,0 +1,132 @@
+footer {
+  width: 100%;
+  background-color: #1f1f1f;
+  color: #ffffff;
+  padding-bottom: 1em;
+}
+
+footer article#footer_data_container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+footer article#footer_data_container div#left {
+  margin: 2em;
+}
+
+footer article#footer_data_container div#left ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+footer article#footer_data_container div#left ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2em;
+}
+
+footer article#footer_data_container div#left ul li span {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url("../assets/WhatsApp_ic.svg");
+  margin-right: 10px;
+  background-size: cover;
+}
+
+footer article#footer_data_container div#left ul li p {
+  text-decoration: underline;
+  display: inline-block;
+  margin: 0px 0px 0px 30px;
+  color: #ffffff;
+}
+
+footer article#footer_data_container div#left ul li p:hover {
+  color: chartreuse;
+}
+
+footer article#footer_data_container div#right {
+  margin: 2em;
+}
+
+footer article#footer_data_container div#right div#underline {
+  padding-bottom: 0.01em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-bottom: 2px solid #ffffff;
+}
+
+footer article#footer_data_container div#right div#underline h2 {
+  letter-spacing: 0.05em;
+  margin: 0px;
+}
+
+footer article#footer_data_container div#right div#underline img {
+  width: 1.3em;
+}
+
+footer article#footer_data_container div#right div.contact {
+  margin-top: 1.4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer article#footer_data_container div#right div.contact p {
+  margin: 0 1em 0 0;
+}
+
+footer article#footer_data_container div#right div.contact a {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer article#footer_data_container div#right div.contact a img {
+  margin-right: 1em;
+}
+
+footer article#footer_data_container div#right div.contact a:hover {
+  color: #ffce42;
+}
+
+footer div.center {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer div.center h3#final {
+  text-align: center;
+  color: white;
+  font-family: "Arvo";
+  margin: 2em 2em;
+  max-width: 40em;
+}
+
+@media (max-width: 505px) {
+  footer article#footer_data_container {
+    display: block;
+    padding-top: 1em;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

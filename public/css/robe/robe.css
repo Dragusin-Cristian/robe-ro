@@ -1,0 +1,56 @@
+section#robe {
+  width: 100%;
+}
+
+section#robe div#img_cont {
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+section#robe div#img_cont div.roba_cont {
+  text-align: center;
+}
+
+section#robe div#img_cont div.roba_cont img {
+  width: 200px;
+}
+
+@media (max-width: 426px) {
+  section#robe div#img_cont div.roba_cont img {
+    width: 150px;
+  }
+}
+
+@media (max-width: 820px) {
+  section#robe div#img_cont {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
+section#robe div#table_cont table,
+section#robe div#table_cont td,
+section#robe div#table_cont th {
+  border: 1px solid grey;
+  text-align: center;
+}
+
+section#robe div#table_cont table pre,
+section#robe div#table_cont td pre,
+section#robe div#table_cont th pre {
+  font-family: "Montserrat";
+  color: #1f1f1f;
+}
+
+section#robe div#table_cont table {
+  width: 100%;
+  border-collapse: collapse;
+}
+/*# sourceMappingURL=robe.css.map */

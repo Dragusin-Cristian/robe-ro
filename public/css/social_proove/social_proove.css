@@ -1,0 +1,62 @@
+section#social_proove {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 1.25em;
+}
+
+section#social_proove div.social_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 0.5em;
+}
+
+section#social_proove div.social_container img {
+  width: 1.3em;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-right: 0.5em;
+}
+
+section#social_proove div.social_container p {
+  max-width: 20em;
+  margin: 0em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+@media (max-width: 426px) {
+  section#social_proove {
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+  section#social_proove div.social_container {
+    border-top: 1px solid #1f1f1f;
+    padding: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  section#social_proove div.social_container:first-child {
+    border-top: none;
+  }
+  section#social_proove div.social_container img {
+    margin-right: 5px;
+  }
+}
+/*# sourceMappingURL=social_proove.css.map */

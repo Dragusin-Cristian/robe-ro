@@ -1,0 +1,245 @@
+@import "../ffv/ffv.scss";
+@import "../mixins/mixins.scss";
+
+section#presentation_container {
+  margin: 50px auto 0px;
+  max-width: 900px;
+  display: block;
+  box-sizing: border-box;
+
+  div.golden_border {
+    border: 3px solid color(yellow);
+    width: 100%;
+    padding: 2.5em 2em;
+    box-sizing: border-box;
+
+    h2 {
+      text-align: center;
+    }
+  }
+
+  section#grid_pictures {
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: repeat(autofit, minmax(1fr, 330px));
+    grid-template-areas:
+      "one two"
+      "one three";
+
+    img#img_one {
+      // width: size(portrait);
+      width: 95%;
+      grid-area: one;
+    }
+
+    img#img_two {
+      // width: size(landscape);
+      width: 95%;
+      margin-bottom: 25px;
+      float: right;
+      grid-area: two;
+    }
+
+    img#img_three {
+      //width: size(landscape);
+      width: 95%;
+      margin-top: 12.5px;
+      float: right;
+      grid-area: three;
+    }
+  }
+
+  article {
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+
+    div.left {
+      width: 390px;
+      margin-right: 25px;
+    }
+    div.right {
+      width: 510px;
+    }
+    img#img_six {
+      max-width: size(landscape);
+      margin-top: 50px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0px;
+
+      li {
+        display: flex;
+        margin-bottom: 1.2em;
+        span {
+          position: absolute;
+          width: 20px;
+          height: 20px;
+          background-image: url("../assets/check_ic.svg");
+          margin-right: 10px;
+          background-size: cover;
+        }
+
+        p {
+          display: inline-block;
+          margin: 0px 0px 0px 30px;
+        }
+      }
+    }
+
+    img#img_four {
+      max-width: size(landscape);
+    }
+
+    img#img_five {
+      // max-width: size(portrait);
+      width: 80%;
+      float: right;
+      margin-top: 50px;
+    }
+
+    img#img_seven {
+      max-width: size(landscape);
+      position: relative;
+      top: -60px;
+    }
+
+    img#img_nine {
+      max-width: size(landscape);
+      background-size: cover;
+      float: right;
+      position: relative;
+      top: -80px;
+    }
+  }
+
+  div#try_colors {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 120px;
+
+    div#colors_container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(35px, 1fr));
+      width: 100%;
+      height: 30px;
+
+      span {
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+        border: 2px solid black;
+        border-radius: 50%;
+        content: " ";
+        display: inline-block;
+        cursor: pointer;
+        transition: transform 0.2s;
+
+        &:hover {
+          transform: scale(1.5);
+        }
+      }
+    }
+
+    p#cod_culoare {
+      background-color: color(black);
+      color: color(white);
+      width: fit-content;
+      margin: 10px auto;
+      padding: 7px 10px 5px;
+      border: 3px solid color(yellow);
+
+      ::selection {
+        color: color(black);
+        background: color(white);
+      }
+    }
+  }
+
+  @include breakpoint(900) {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    article {
+      margin-top: 50px;
+    }
+
+    div#right_pics {
+      width: 100%;
+    }
+
+    img#img_four,
+    img#img_six,
+    div#right_2 {
+      display: none;
+    }
+
+    div#left_2 {
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      width: 100%;
+    }
+  }
+
+  @include breakpoint(750) {
+    article {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      div#right_1 {
+        display: flex;
+        justify-content: center;
+      }
+      img#img_five {
+        margin: 50px auto;
+      }
+
+      div#left_2 {
+        display: block;
+      }
+    }
+
+    div#try_colors {
+      margin-top: 50px;
+    }
+  }
+
+  @include breakpoint(505) {
+    h2 {
+      text-align: center;
+    }
+
+    section#grid_pictures {
+      margin-top: 40px;
+    }
+    div#right_1 {
+      display: block;
+      width: 100%;
+
+      img#img_five {
+        width: 100%;
+      }
+    }
+
+    article div#left_1 {
+      margin-right: 0px;
+      width: 100%;
+    }
+  }
+}
+
+div#img_eleven {
+  background-image: url("../../assets/eleven.png");
+  background-attachment: fixed;
+  width: 100%;
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
